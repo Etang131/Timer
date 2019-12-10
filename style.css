@@ -1,3 +1,22 @@
+h1 {
+  font-size: 3rem;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 50px;
+  border-bottom: 5px black dotted;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .dial {
   height: 400px;
   width: 400px;
@@ -6,6 +25,8 @@
 .timer {
   position: relative;
   display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 * {
@@ -13,8 +34,8 @@
 }
 
 body {
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .timer input {
